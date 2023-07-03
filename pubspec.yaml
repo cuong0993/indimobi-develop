@@ -1,0 +1,128 @@
+name: indimobi
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+  get: ^4.5.0
+  dio: ^4.0.4
+
+  url_launcher: ^6.1.2
+  intl_utils: ^2.6.1
+  connectivity_plus: ^2.2.1
+  flutter_svg: ^1.0.3
+  path_provider: 2.0.11
+  logger: ^1.1.0
+  flutter_lints: ^2.0.0
+  share_plus: ^4.0.10+1
+
+  pin_code_fields: ^7.4.0
+  #app storage
+  build_runner: ^2.2.1
+  shared_preferences: ^2.0.12
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  permission_handler: ^10.2.0
+  image_picker: ^0.8.6
+  screenshot: ^1.3.0
+  flutter_staggered_animations: ^1.0.0
+  device_info_plus: ^8.2.1
+  flutter_sequence_animation: ^4.0.0
+  flip_card: ^0.6.0
+  scrollable_positioned_list: ^0.3.5
+  image: ^3.2.2
+  custom_pop_up_menu: ^1.2.4
+  scroll_to_index: ^3.0.1
+  rxdart: ^0.27.7
+  flutter_format_money_vietnam: ^0.0.2
+  equatable: ^2.0.0
+
+dev_dependencies:
+  curl_logger_dio_interceptor: ^0.0.3
+  flutter_launcher_icons: ^0.11.0
+  flutter_test:
+    sdk: flutter
+  hive_generator: any
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/ic_app.png"
+  min_sdk_android: 23
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/emoji/family/
+    - assets/emoji/good_day/
+    - assets/emoji/happy_birthday/
+    - assets/emoji/love/
+    - assets/emoji/merry_christmas/
+  fonts:
+    - family: Black
+      fonts:
+        - asset: assets/fonts/Muli-Black.ttf
+    - family: BlackItalic
+      fonts:
+        - asset: assets/fonts/Muli-BlackItalic.ttf
+    - family: Bold
+      fonts:
+        - asset: assets/fonts/Muli-Bold.ttf
+    - family: BoldItalic
+      fonts:
+        - asset: assets/fonts/Muli-BoldItalic.ttf
+    - family: ExtraBold
+      fonts:
+        - asset: assets/fonts/Muli-ExtraBold.ttf
+    - family: ExtraBoldItalic
+      fonts:
+        - asset: assets/fonts/Muli-ExtraBoldItalic.ttf
+    - family: ExtraLight
+      fonts:
+        - asset: assets/fonts/Muli-ExtraLight.ttf
+    - family: ExtraLightItalic
+      fonts:
+        - asset: assets/fonts/Muli-ExtraLightItalic.ttf
+    - family: Italic
+      fonts:
+        - asset: assets/fonts/Muli-Italic.ttf
+    - family: ItalicVariableFont
+      fonts:
+        - asset: assets/fonts/Muli-Italic-VariableFont_wght.ttf
+    - family: Light
+      fonts:
+        - asset: assets/fonts/Muli-Light.ttf
+    - family: LightItalic
+      fonts:
+        - asset: assets/fonts/Muli-LightItalic.ttf
+    - family: Medium
+      fonts:
+        - asset: assets/fonts/Muli-Medium.ttf
+    - family: MediumItalic
+      fonts:
+        - asset: assets/fonts/Muli-MediumItalic.ttf
+    - family: Regular
+      fonts:
+        - asset: assets/fonts/Muli-Regular.ttf
+    - family: SemiBold
+      fonts:
+        - asset: assets/fonts/Muli-SemiBold.ttf
+    - family: SemiBoldItalic
+      fonts:
+        - asset: assets/fonts/Muli-SemiBoldItalic.ttf
+    - family: VariableFont
+      fonts:
+        - asset: assets/fonts/Muli-VariableFont_wght.ttf
+
+flutter_intl:
+  enabled: true

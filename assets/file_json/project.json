@@ -1,0 +1,66 @@
+{
+  "id": 2131214,
+  "type": "15X15",
+  "size": {
+    "width": 320,
+    "height": 320
+  },
+  "pages": [
+    {
+      "dateLocal": 12312312213,
+      "name": "page12/page0(cover)",
+      "layout": "img_page_layout_01/img_front_cover_layout_04",
+      "photos": [
+        {
+          "size": [
+            776,
+            694
+          ],
+          "path": "page12image0.png",
+          "pathLocal": "page12image0.png",
+          "listUnitLocal": [2],
+          "loc": [
+            0,
+            0,
+            320,
+            275
+          ],
+          "imageCrop": [
+            304,
+            470,
+            776,
+            694
+          ]
+        }
+      ],
+      "texts": [
+        {
+          "size": 60,
+          "content": "",
+          "loc": [
+            8,
+            301.33,
+            334,
+            353.33
+          ],
+          "font": "Arial",
+          "style": [
+            1,
+            0
+          ]
+        }
+      ],
+      "stickers": [
+        {
+          "centerX": 99.65,
+          "angle": -0.75,
+          "centerY": 82.69,
+          "image": "family\/3.png",
+          "pathLocal": "family3.svg",
+          "width": 104.82,
+          "height": 104.82
+        }
+      ]
+    }
+  ]
+}
