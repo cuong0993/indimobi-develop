@@ -4,7 +4,7 @@ import 'package:indimobi/commons/app_colors.dart';
 import 'package:indimobi/commons/app_style.dart';
 import 'package:indimobi/components/ic_back_cpn.dart';
 
-class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
+class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   final Size preferredSize = const Size.fromHeight(48);
 

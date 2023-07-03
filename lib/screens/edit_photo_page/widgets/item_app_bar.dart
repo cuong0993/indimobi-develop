@@ -8,7 +8,7 @@ import 'package:indimobi/screens/add_emoji_page/add_emoji_page.dart';
 import 'package:indimobi/screens/edit_photo_page/edit_photo_vm.dart';
 import 'package:indimobi/widgets/app_dialog/app_dialog.dart';
 
-class ItemAppBar extends StatelessWidget with PreferredSizeWidget {
+class ItemAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   final Size preferredSize = const Size.fromHeight(48);
 
